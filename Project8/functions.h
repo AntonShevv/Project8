@@ -1,11 +1,11 @@
 // functions.h
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
-
-// ХРАНИЛИЩЕ СЛОВ
+const int dictionarySize = 100;
+// Г•ГђГЂГЌГ€Г‹Г€Г™Г… Г‘Г‹ГЋГ‚
 char* dectionary(
-	int num,	// номер слова в хранилище
-	bool lag);	// язык если true англ, иначе рус
+	int num,	// Г­Г®Г¬ГҐГ° Г±Г«Г®ГўГ  Гў ГµГ°Г Г­ГЁГ«ГЁГ№ГҐ
+	bool lag);	// ГїГ§Г»ГЄ ГҐГ±Г«ГЁ true Г Г­ГЈГ«, ГЁГ­Г Г·ГҐ Г°ГіГ±
 
 void removal();
 
